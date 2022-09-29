@@ -23,7 +23,7 @@ const scatterPlot = ({ x, y }) => {
       nameLocation: "middle",
       nameTextStyle: {
         verticalAlign: "bottom",
-        lineHeight: 30,
+        lineHeight: 27,
       },
     },
     series: [
@@ -60,7 +60,7 @@ const barPlot = ({ x, xName, y, yName }) => {
       nameLocation: "middle",
       nameTextStyle: {
         verticalAlign: "bottom",
-        lineHeight: 30,
+        lineHeight: 27,
       },
     },
     series: [
