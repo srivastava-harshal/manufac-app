@@ -93,7 +93,6 @@ const getChartData = (data = []) => {
     report = { ...report, id: obj.id };
     reports.push(report);
   }
-
   //   const scatterData = scatterPlot("Hue", "Color intensity");
   return reports;
 };

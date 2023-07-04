@@ -18,6 +18,7 @@ const getMalicAvgData = () => {
       meanData[alcohol] = [malicAcid];
     }
   }
+
   const malicAvg = [];
   for (let i = 0; i < alcohols.length; i += 1) {
     malicAvg.push(
@@ -28,6 +29,7 @@ const getMalicAvgData = () => {
     );
   }
 
+  // console.log(malicAvg);
   return { x: alcohols, y: malicAvg };
 };
 
